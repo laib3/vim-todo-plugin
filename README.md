@@ -2,6 +2,9 @@
 
 A simple plugin which adds syntax highlighting and mappings to Vim for todo lists.
 
+A todo file is any file whose name terminates with `todo.txt` (for example, 
+`hello_todo.txt` and `today-todo.txt` are both valid todo files).
+
 ## Installation
 
 Copy all files into respective directories (make sure those directories exist first):
