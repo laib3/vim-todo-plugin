@@ -1,2 +1,2 @@
 " ftdetect/todo.vim
-autocmd BufNewFile,BufRead *todo.txt set filetype=todo
+autocmd BufNewFile,BufRead \c*todo*.txt set filetype=todo
