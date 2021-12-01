@@ -28,6 +28,7 @@ If you want to change the default colors you can simply edit the `syntax/todo.vi
 
 All mappings depend on your `localleader` key (please consult `:help maplocalleader`).
 
+- `<localleader><localleader>`: insert a new section.
 - `<localleader><CR>`: insert a new todo-element.
 - `<localleader>m`: mark/unmark an element as done.
 - `<localleader>d` (only in insert mode): insert the current date.

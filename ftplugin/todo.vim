@@ -4,11 +4,15 @@ inoremap <buffer> <localleader><CR> <ESC>o- [ ]
 inoremap <buffer> <localleader>m <ESC>:call MarkToggle()<CR>
 " insert current date
 inoremap <buffer> <localleader>d <C-R>=strftime('%Y-%m-%d')<CR>
+" insert a new section
+inoremap <buffer> <localleader><localleader> @ 
 
 " add a new todo element
 nnoremap <buffer> <localleader><CR> o- [ ] 
 " toggle done
 nnoremap <buffer> <localleader>m :call MarkToggle()<CR>
+" insert a new section
+nnoremap <buffer> <localleader><localleader> @ 
 
 function! MarkToggle() 
 	let line=getline(line("."))
